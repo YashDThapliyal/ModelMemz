@@ -23,6 +23,7 @@ pip install requests groq
 export GROQ_API_KEY="your-real-groq-key"
 
 python main.py
+```
 
 ## Demo:
 <img width="1364" alt="Screenshot 2025-06-12 at 6 40 02 PM" src="https://github.com/user-attachments/assets/70a917b2-5369-4ea0-a455-71f581c55308" />
