@@ -1,6 +1,6 @@
 # ModelMemz
 
-A lightweight CLI chat tool that lets you swap between Groq-hosted LLMs while keeping a short-term memory of the conversation.
+A lightweight CLI chat tool that lets you swap between LLMs while keeping a short-term memory of the conversation.
 
 I built this because I noticed that most LLM APIs are stateless - they don’t remember anything between messages unless you manually include the full conversation history. I wanted something lightweight that could simulate memory across model calls, and also let me switch between different LLMs mid-conversation without losing context. This project keeps a running memory of recent messages and feeds them into each API call so the model can respond more naturally, like a real conversation.
 
